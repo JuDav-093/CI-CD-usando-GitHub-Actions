@@ -30,3 +30,6 @@ jobs:
       - name: Simular despliegue
         run: |
           echo "Despliegue simulado: la aplicacion paso lint y pruebas."
+
+      - name: Build
+        run: npm ci && npm run build
